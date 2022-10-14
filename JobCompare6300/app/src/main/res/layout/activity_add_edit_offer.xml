@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addEditOffer">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelTitle"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Offer Title"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text=""
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelCompany"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Company"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/company"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text=""
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelCity"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="City"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:text=""
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelState"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="State"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/state"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labellivingCost"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Cost of living"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/costOfLiving"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:inputType="number"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelSalary"
+                    android:layout_width="150dp"
+                    android:layout_height="87dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Salary (per anum)"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/salary"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:inputType="numberDecimal"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelBonus"
+                    android:layout_width="150dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Bonus (per anum)"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/bonus"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:inputType="numberDecimal"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelremoteDays"
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Telework Days"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/remoteDays"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelleaveTime"
+                    android:layout_width="150dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Leave Time"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/leaveTime"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:inputType="number"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/labelgymAllowance"
+                    android:layout_width="150dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20sp"
+                    android:text="Gym Allowance"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/gymAllowance"
+                    android:layout_width="200dp"
+                    android:layout_height="64dp"
+                    android:inputType="numberDecimal"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="saveDetails"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="backToHome"
+                    android:text="Back" />
+
+                <Button
+                    android:id="@+id/addOffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="reload"
+                    android:text="Add Offer" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/compareCurrent"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:layout_marginLeft="80dp"
+                android:enabled="false"
+                android:onClick="compareCurrent"
+                android:text="Compare With Current Job" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/saveJDMessage"
+                    android:layout_width="373dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Offer Details saved successfully."
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

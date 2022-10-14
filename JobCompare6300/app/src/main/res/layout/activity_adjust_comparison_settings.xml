@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".ui.adjustComparisonSettings">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelsalaryweight"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:paddingStart="20sp"
+                android:text="Salary (per anum)"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/salaryWeight"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:inputType="number"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelbonusweight"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:paddingStart="20sp"
+                android:text="Bonus (per anum)"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/bonusWeight"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:inputType="number"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelremoteDaysweight"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:paddingStart="20sp"
+                android:text="Telework Days"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/remoteWeight"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:inputType="number"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelleaveweight"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:paddingStart="20sp"
+                android:text="Leave Time"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/leaveWeight"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:inputType="number"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelgymallowanceweight"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:paddingStart="20sp"
+                android:text="Gym Allowance"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/gymWeight"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:inputType="number"
+                android:text="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="150dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:onClick="saveWeights"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/Cancel"
+                android:layout_width="150dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:inputType="text"
+                android:onClick="backToHome"
+                android:text="Cancel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/saveMessage"
+                android:layout_width="373dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Comparison settings saved successfully."
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_add_edit_jd.xml" value="0.23229166666666667" />
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_add_edit_offer.xml" value="0.23229166666666667" />
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_adjust_comparison_settings.xml" value="0.23229166666666667" />
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_compare_jobs.xml" value="0.23229166666666667" />
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_list_compare.xml" value="0.23229166666666667" />
+        <entry key="..\:/Git/6300_GroupProject/6300Fall21Team111/GroupProject/JobCompare6300/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/6300Fall21Team111/GroupProject/code/app/src/main/res/layout/activity_add_edit_jd.xml" value="0.28306159420289856" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/6300Fall21Team111/GroupProject/code/app/src/main/res/layout/activity_add_edit_offer.xml" value="0.276268115942029" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/6300Fall21Team111/GroupProject/code/app/src/main/res/layout/activity_adjust_comparison_settings.xml" value="0.28306159420289856" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/6300Fall21Team111/GroupProject/code/app/src/main/res/layout/activity_main.xml" value="0.28306159420289856" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/code/app/src/main/res/layout/activity_add_edit_jd.xml" value="0.28940217391304346" />
+        <entry key="..\:/Yogesh/OMSCS/Fall_2021/CS-6300-Software_Dev_Process/Assignments/Assignment_GP_D3/code/app/src/main/res/layout/activity_main.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>
